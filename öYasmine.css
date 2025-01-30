@@ -1,0 +1,406 @@
+*
+{
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma ;
+    text-decoration: none;
+    list-style: none;
+}
+body
+{   
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+
+}
+header
+{
+  position: relative;
+}
+.logo
+{
+  mix-blend-mode: multiply;
+}
+.menu_Hamburger
+{
+  top: 30px;
+  right: 20px;
+  position: absolute;
+  height: 25px;
+  display: none;            
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+
+}
+.menu_Hamburger .bar
+{
+   height: 4px;
+   width: 25px;
+   background: rgb(216, 201, 201);
+   margin: 2px 0;
+}
+
+.premiere-page
+{
+  width: 100%;
+  position: relative;
+  background-image: url(öYasmine-font.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content
+{
+  position: relative;
+  z-index: 2;                
+  color: white;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.navlinks
+{
+  position: fixed;
+  border: 1px solid rgb(235, 168, 168);
+  width: 380px;
+  background-color: rgba(95, 93, 93, 0.651);
+  border-radius: 20px;
+  top: 50px;
+  right:0;
+  background-size: cover;
+  height: 40px;
+  
+}
+
+.navlinks ul
+{
+  position: absolute;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navlinks ul a
+{
+  color: rgb(235, 168, 168);
+}
+.navlinks ul a:hover
+{
+   border-bottom:1px solid white ;
+   color: rgb(178, 214, 228);
+}
+.navlinks ul li
+{
+  position: relative;
+  right: 70px;
+  margin: 10px; 
+}
+.titre-1
+{
+  color: rgb(216, 201, 201);
+}
+.parti-1
+{
+  position: relative;
+  width: 50%;
+  bottom: 20px;
+}
+.bienvenue
+{
+  position: relative;
+  margin-top: 150px;
+  height: auto;
+  font-size: 20px;
+  margin-bottom: 150px;
+}
+.liens
+{
+  position: relative;
+  display: flex;
+  bottom: 125px;
+  gap: 10px;
+  left: 10px;
+}
+
+.icon-whatsapp
+{
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+.icon-facebook
+{
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+.icon-telephone
+{
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+.pied-partie1
+{
+  position: absolute;
+  width: 90%;
+  bottom: 50px;
+  font-size: 20px;
+}
+.footer-1
+{
+  position: relative;
+  top: 50px;
+}
+/*dexieme-page*/
+.page2
+{
+  position: relative;
+
+  background-color: rgba(252, 229, 198, 0.493);
+}
+
+ 
+.image-menus
+{
+  width: 250px;
+  padding: 30px;
+  text-align: center;
+}
+.image-menus div
+{
+  height: 160px;
+}
+ .bouton1
+{
+  width: 120px;
+  line-height: 35px;
+  box-shadow: 15px;
+}
+.image-menus p 
+{
+
+   margin: 10px 0;
+   font-size: 15px;
+}
+.image-menus img
+{
+
+  margin-bottom: 15px;
+}
+.bouton2
+{
+  width: 120px;
+  line-height: 35px;
+}
+.bouton3
+{
+  width: 120px;
+  line-height: 35px;
+}
+.bouton1:hover
+{
+  background-color: rgb(235, 168, 168);
+}
+.bouton2:hover
+{
+  background-color: rgb(235, 168, 168);
+}
+.bouton3:hover
+{
+  background-color: rgb(235, 168, 168);
+}
+
+.bloc1
+{
+  position: relative;
+  left: 10%;
+  right: 0;
+  margin: 70px 0;
+  padding: 20px;
+  width: 80%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+  bottom: 15px;
+}
+.footer2
+{
+  position: relative;
+  background-color: rgb(114, 110, 110);
+  bottom: 25px;
+}
+.phrase-contact
+{
+  position: relative;
+  padding: 10px 0;
+}
+
+@media screen and (max-width:900px) 
+{
+
+  .navlinks 
+{
+  position: fixed;
+  border: 1px solid rgb(235, 168, 168);
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  right: 25%;
+}
+.navlinks ul
+{
+  position: relative;
+  left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parti-1
+{
+  position: relative;
+  bottom: 100px;
+  width: 50%;
+}
+.icon-whatsapp
+{
+  font-size: 25px;
+  cursor: pointer;
+}
+.icon-facebook
+{
+  font-size: 20px;
+  cursor: pointer;
+}
+.icon-telephone
+{
+  font-size: 20px;
+  cursor: pointer;
+}
+.bloc1
+{
+  position: relative;
+  left: 10%;
+  right: 0;
+  margin: 70px 0;
+  padding: 20px 0;
+  width: 80%;
+  background-color:white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+ height: 100%;
+ gap: 30px;
+  flex-wrap: wrap;
+}
+}
+
+
+@media screen and (max-width:500px) 
+{
+  .navlinks
+{
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 80px;
+    right: 50px;
+    padding: 20px;
+    height: 230px;  
+}
+ .menu_Hamburger
+{
+  display: flex;
+}
+  
+.mobile_menu
+{
+  display: flex;
+}
+.navlinks ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navlinks ul li
+{
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  margin: 25px 0;
+  height: 60px;
+}
+
+.intro
+{
+  position: relative;
+  bottom: 160px;
+}
+.phrase-accueil
+{
+  position: relative;
+  bottom: 90px;
+}
+.liens
+{
+  position: relative;
+  display: flex;
+  bottom: 220px;
+  gap: 10px;
+}
+.parti-1
+{
+  position: relative;
+  width: 50%;
+  top: 0px;
+}
+.icon-whatsapp
+{
+  font-size: 25px;
+  cursor: pointer;
+}
+.icon-facebook
+{
+  font-size: 20px;
+  cursor: pointer;
+}
+.icon-telephone
+{
+  font-size: 20px;
+  cursor: pointer;
+}
+.bloc1
+{
+  position: relative;
+  left: 25%;
+  right: 0;
+  margin: 70px 0;
+  padding: 20px 0;
+  width: 250px;
+  background-color:white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+ height: auto;
+ gap: 30px;
+  flex-wrap: wrap;
+}
+}
+
+
+
