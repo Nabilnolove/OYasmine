@@ -246,7 +246,11 @@ header
   position: relative;
   padding: 10px 0;
 }
-
+.dans-footer
+{
+  position: relative;
+  top: 10px;
+}
 @media screen and (max-width:900px) 
 {
 
